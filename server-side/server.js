@@ -24,6 +24,12 @@ connection.once('open', () => {
 
 //set up routes
 
+const getPage = async (req, res) => {
+    console.log('getting page request');
+    console.log(req.params.id);
+    res.send(report)
+}
+
 app.listen(port, () => {
     console.log(`Server is running on port: ${port}`)
 });
