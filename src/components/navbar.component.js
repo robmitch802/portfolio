@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import { LinkContainer } from 'react-router-bootstrap';
+
 
 export default class NavBar extends Component {
     render() {
@@ -16,10 +16,10 @@ export default class NavBar extends Component {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav" className="bg-light" >
                         <Nav className="mr-auto bg-light" >
-                            <LinkContainer className="navLink bg-light" to="/about"><Nav.Link>About Me</Nav.Link></LinkContainer>
-                            <LinkContainer className="navLink bg-light" to="/work"><Nav.Link>Work</Nav.Link></LinkContainer>
-                            <LinkContainer className="navLink bg-light" to="/projects"><Nav.Link>Projects</Nav.Link></LinkContainer>
-                            <LinkContainer className="navLink bg-light" to="/interests"><Nav.Link>Interests</Nav.Link></LinkContainer>
+                            <Link className="navLink bg-light" to="/about"><Nav.Link>About Me</Nav.Link></Link>
+                            <Link className="navLink bg-light" to="/work"><Nav.Link>Work</Nav.Link></Link>
+                            <Link className="navLink bg-light" to="/projects"><Nav.Link>Projects</Nav.Link></Link>
+                            <Link className="navLink bg-light" to="/interests"><Nav.Link>Interests</Nav.Link></Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>
