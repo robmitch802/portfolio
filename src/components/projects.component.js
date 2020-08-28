@@ -6,21 +6,22 @@ export default class Projects extends Component {
         return(
             <div>
                 <h2>Code and other projects </h2>
-                <div class="media">
+                <br />
+                <div className="media">
                     <img src="../../img/geo-vermonter.jpg" className="mr-3" width={128} alt="Geo-Vermonter coding project" />
-                    <div class="media-body">
-                        <h5 className="mt-0" >Geo-Vermonter</h5>
-                        <p>Based on on the popular Google game Geo-Guesser, my partner Kevin and I built a Vermont-centric game 
+                    <div className="media-body">
+                        <h4 className="mt-0" >Geo-Vermonter</h4>
+                        <p className="body-text-20">Based on on the popular Google game Geo-Guesser, my partner Kevin and I built a Vermont-centric game 
                             using Leaflet maps. Start the game and the map zooms in to a close-up satellite view of a specific point
                             in Vermont. Use moves to guess which county that point is in.
                         </p>
                     </div>
                 </div>
                 <hr />
-                <div class="media">
-                    <div class="media-body">
-                        <h5 className="mt-0 mb-1" >Turtle-Tac-Toe</h5>
-                        <p>A wrinkle on the typical tic-tac-toe coding project, this pits turtles vs. tortoises. As my 
+                <div className="media">
+                    <div className="media-body">
+                        <h4 className="mt-0 mb-1" >Turtle-Tac-Toe</h4>
+                        <p className="body-text-20">A wrinkle on the typical tic-tac-toe coding project, this pits turtles vs. tortoises. As my 
                             sons sing to me: "A turtle lives in water, a tortoise lives on land, 
                             a turtle's not a tortoise, it's not hard to understand."
                         </p>

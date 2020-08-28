@@ -9,6 +9,7 @@ import Interests from './components/interests.component.js'
 import Projects from './components/projects.component.js'
 import About from './components/about.component.js'
 import Admin from './components/admin.component.js'
+import Footer from './components/footer.component.js'
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Route path="/projects" exact component={Projects} />
       <Route path="/interests" exact component={Interests} />
       <Route path="/admin" exact component={Admin} />
+      <Footer />
       </div>
     </Router>
 

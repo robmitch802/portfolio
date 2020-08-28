@@ -6,6 +6,7 @@ export default class Work extends Component {
         return(
             <div>
                 <h2>Work History</h2>
+                <div className="body-text-20">
                 <p>My first job was collecting eggs, mucking stalls and hauling hay bales on our small farm.</p>
                 <p>I worked as a dishwasher, house painter, research assistant, and then as a film projectionist and postal sorter through high school and college.</p>
                 <p>After college, I supported my running dreams through work in postal delivery, as a phone technician, 
@@ -18,6 +19,7 @@ export default class Work extends Component {
                 <p>After my family sold the papers in 2016, in the middle of a financial crisis, I stayed on in a leadership role until leaving to pursue
                     coding and data science in early 2020. 
                 </p>
+                </div>
             </div>
         )
     }

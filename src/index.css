@@ -13,5 +13,15 @@ code {
 }
 
 .margin-header {
-  margin-top: 5%;
+  margin-top: 9%;
+}
+.body-text-20 {
+  font-size: 20px;
+}
+.footerList {
+  text-decoration: none;
+  color: black;
+}
+a .footerList{
+  color: black;
 }
